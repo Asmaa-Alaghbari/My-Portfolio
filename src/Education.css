@@ -1,0 +1,71 @@
+.education-section {
+    padding: 2rem;
+    background: #f0f4f8;
+    color: #333;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.education-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.education-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #0073b1;
+}
+
+.education-university>a {
+    color: #444;
+    text-decoration: none;
+}
+
+.education-university:hover {
+    text-decoration: underline;
+}
+
+.education-year {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.education-tech-stack {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #777;
+    max-height: 3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.education-tech-stack.expanded {
+    max-height: none;
+}
+
+.read-more {
+    color: #0073b1;
+    cursor: pointer;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}

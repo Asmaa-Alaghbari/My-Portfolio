@@ -1,0 +1,16 @@
+.footer {
+    background-color: transparent;
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .footer {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,89 @@
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00bfa5, #0073b1);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.home-content {
+    max-width: 600px;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.profile-pic {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    animation: bounce 2s infinite;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.home-button {
+    background-color: #fff;
+    color: #0073b1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+    background-color: #e4d4d4;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 768px) {
+    .home-title {
+        font-size: 1.5rem;
+    }
+
+    .home-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .home-description {
+        font-size: 1.rem;
+    }
+}
