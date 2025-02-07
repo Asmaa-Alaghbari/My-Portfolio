@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/css/main.7a43266b.css",
-    "main.js": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/js/main.2f89836d.js",
-    "static/js/453.acca0757.chunk.js": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/AsmaaProfile.jpg": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/media/AsmaaProfile.2dd7baa403edbf6e8351.jpg",
-    "index.html": "/Asmaa-Alaghbari.github.io/My-Portfolio/index.html",
-    "main.7a43266b.css.map": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/css/main.7a43266b.css.map",
-    "main.2f89836d.js.map": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/js/main.2f89836d.js.map",
-    "453.acca0757.chunk.js.map": "/Asmaa-Alaghbari.github.io/My-Portfolio/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/My-Portfolio/static/css/main.7a43266b.css",
+    "main.js": "/My-Portfolio/static/js/main.c31803b6.js",
+    "static/js/453.acca0757.chunk.js": "/My-Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/AsmaaProfile.jpg": "/My-Portfolio/static/media/AsmaaProfile.2dd7baa403edbf6e8351.jpg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.7a43266b.css.map": "/My-Portfolio/static/css/main.7a43266b.css.map",
+    "main.c31803b6.js.map": "/My-Portfolio/static/js/main.c31803b6.js.map",
+    "453.acca0757.chunk.js.map": "/My-Portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a43266b.css",
-    "static/js/main.2f89836d.js"
+    "static/js/main.c31803b6.js"
   ]
 }
