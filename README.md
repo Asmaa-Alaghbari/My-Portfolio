@@ -9,6 +9,9 @@ This project is a personal portfolio website built using React. It showcases var
 - **Framework:** React
 - **Tools:** Visual Studio Code, Git, GitHub
 - **Project Status:** In Progress
+- **Project Type:** Personal Portfolio Website
+- **Deployment:** GitHub Pages
+- **Website:** [Asmaa Alaghbari](https://asmaa-alaghbari.github.io/Portfolio-Website/)
 
 ## Description
 
@@ -49,6 +52,7 @@ The following libraries were used in this project:
 
 ## Resources
 
+- [GitHub Pages](https://pages.github.com/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [WWWW3 Schools](https://www.w3schools.com/)
