@@ -38,14 +38,10 @@
     margin: 5px 0 0;
     font-size: 16px;
     color: #666;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
 
 .language-item:hover h3 {
     color: #0877e6;
-}
-
-.language-item:hover p {
-    opacity: 1;
 }

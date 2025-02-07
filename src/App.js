@@ -1,13 +1,13 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./Footer";
-import Home from "./Home";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Education from "./Education";
-import Experience from "./Experience";
-import Language from "./Language";
-import Navbar from "./Navbar";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Language from "./components/Language";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (

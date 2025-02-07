@@ -1,5 +1,5 @@
 import React from "react";
-import AsmaaProfile from "./AsmaaProfile.jpg";
+import AsmaaProfile from "../assets/AsmaaProfile.jpg";
 import Project from "./Projects";
 import Experince from "./Experience";
 import Education from "./Education";

@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false); // Hambuger menu icon
+  const [menuOpen, setMenuOpen] = useState(false); // Hamburger menu icon
   const navbarRef = useRef(null); // Navbar reference for closing the menu
 
   // Toggle the menu
@@ -25,32 +26,51 @@ export default function Navbar() {
     };
   }, []);
 
+  // Close the menu when a link is clicked
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <nav className="navbar" ref={navbarRef}>
       <div className="navbar-logo">
-        <a href="/">Asmaa Alaghbari</a>
+        <Link to="/" onClick={handleLinkClick}>
+          Asmaa Alaghbari
+        </Link>
       </div>
       <div className="navbar-toggle" onClick={handleToggle}>
         <RxHamburgerMenu />
       </div>
       <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <a href="/">Home</a>
+          <Link to="/" onClick={handleLinkClick}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <Link to="/projects" onClick={handleLinkClick}>
+            Projects
+          </Link>
         </li>
         <li>
-          <a href="/experience">Experience</a>
+          <Link to="/experience" onClick={handleLinkClick}>
+            Experience
+          </Link>
         </li>
         <li>
-          <a href="/education">Education</a>
+          <Link to="/education" onClick={handleLinkClick}>
+            Education
+          </Link>
         </li>
         <li>
-          <a href="/language">Language</a>
+          <Link to="/language" onClick={handleLinkClick}>
+            Language
+          </Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link to="/contact" onClick={handleLinkClick}>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
