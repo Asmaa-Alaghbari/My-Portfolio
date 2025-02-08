@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AsmaaProfile from "../assets/AsmaaProfile.jpg";
 import Project from "./Projects";
 import Experince from "./Experience";
@@ -24,9 +25,9 @@ export default function Home() {
             and functional web applications. Explore my projects, experience,
             and get in touch!
           </p>
-          <a href="/projects" className="home-button">
+          <Link to="/projects" className="home-button">
             View Projects
-          </a>
+          </Link>
         </div>
       </section>
       <section id="projects" className="content-section">
