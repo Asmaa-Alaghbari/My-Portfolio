@@ -4,6 +4,33 @@ import "./Projects.css";
 // Projects data
 const projects = [
   {
+    title: "Notes App",
+    description:
+      "A React-based web application designed to help users create, manage, and search through personal notes.",
+    techStack: "React, JavaScript, CSS, Git, GitHub",
+    link: "https://github.com/Asmaa-Alaghbari/Notes-App",
+  },
+  {
+    title: "Habit Tracker",
+    description:
+      "Flutter app for building and tracking daily habits with reminders and progress monitoring.",
+    techStack: "Dart, Cross-platform Development, Flutter",
+    link: "https://github.com/Asmaa-Alaghbari/Habit-Tracker",
+  },
+  {
+    title: "Tic-Tac-Toe Game",
+    description:
+      "Classic two-player strategy game where players take turns marking spaces on a 3x3 grid to form a winning line.",
+    techStack: "Python, Object-Oriented Programming (OOP)",
+    link: "https://github.com/Asmaa-Alaghbari/Tic-Tac-Toe-Game",
+  },
+  {
+    title: "Portfolio Website",
+    description: "Developed a personal portfolio website using React.",
+    techStack: "React, JavaScript, CSS, Git, GitHub",
+    link: "https://github.com/Asmaa-Alaghbari/My-Portfolio",
+  },
+  {
     title: "Mall Garage Management System (MGMS)",
     description: "Developed a system to manage mall parking.",
     techStack: "React, C#, PostgreSQL, JWT, API, UI/UX",
